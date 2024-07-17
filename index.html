@@ -3,177 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Galeria Arte.Blog</title>
+    <title> Galeria|Arte</title>
+    <!--Font Awesome iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<!-- Cabecera -->
-<header> 
-  <nav class="navbar">
-       <div class="container">
-         <a href="index.html" class="navbar-brand">Galeria Arte</a>
-          <section class="navbar-nav"> 
-              <a href="index.html">Inicio</a>
-              <a href="#destacados">Destacados</a>
-              <a href="#nosotros">Nosotros</a>
-              <a href="contacto.html">Contacto</a>
-          </section>
-      </div>
- </nav>
- <div class="banner">
+<body>   
+ <!--Header-->
+  <header> 
+   <!--Barra De Navegación---->
+     <a href="#" class="logo">GALERIA|ARTE</a>
+     <nav>
+        <ul>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="#destacados">Destacados</a></li>
+          <li><a href="#arte">Regalá Arte</a></li>
+          <li><a href="nosotros.html">Quienés somos</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Banner inicio-->
+   <section class="header">
+    <div class="banner">
       <div class="container"> 
-           <h1 class="banner-titulo"> Galeria&Arte</h1> 
-           <p> Bienvenidos a mi blog de Galeria&Arte</p> 
-           <form>
-              <input type="text" class="buscador" placeholder="Buscar"> 
-              <button type="submit" class=buscador-btn> 
-                <i class="fas fa-search"></i>
-              </button>
-            </form> 
+        <h1 class="banner-title">GALERIA&ARTE</h1> 
+        <p>Un espacio dedicado a celebrar la creatividad y la expresión.</p> 
+        <form>
+          <input type="text" class="search-input" placeholder="Buscar"> 
+          <button type="submit" class=search-btn> 
+            <i class="fas fa-search"></i>
+          </button>
+        </form> 
       </div>
-        
- </div>
-</header>
-<!-- Fin de cabecera-->
-
-<!-- Destacados -->
-<section class="design" id="destacados">
-  <div class="container">
-    <div class="titulo">
-      <h2> Destacados Arte & Diseño</h2>
-      <p> Destacado arte & diseños</p>
     </div>
-
-    <div class="design-content">
-
-        <!-- item 1-->
-      <div class="design-item">
-        <div class="design-img"> 
-         <img src="obra-6.jpg" alt="">
-         <span> <i class="far fa-heart"></i>33</span>
-          <span> Arte & Diseño </span>
+  </section>
+ <!-- Destacados --->
+ <section class="design" id="destacados">
+    <div class="container">
+      <div class="title">
+        <h2>DESTACADOS ARTE & DISEÑOS</h2>
+        <p> ARTISTAS & OBRAS MÁS ELEGIDAS DE ESTE MES</p>
+      </div>
+      <div class="design-content">
+        <!--Item-->
+        <div class="design-item">
+          <div class="design-img"> 
+            <img src="img/obra_1.jpg" alt="Obra 1">
+            <span> <i class="far fa-heart"></i>1103</span>
+            <span>Galeria|Arte</span>
+          </div>
+          <div class=" design-title">
+            <a href="#">East of the sun and west of the moon pl 17 (1922)Kay Rasmus Nielsen (Danish, 1886-1957)</a> 
+          </div>
         </div>
-
-      <div class=" design-titulo">
-         <a href="#">East of the sun and west of the moon pl 17 (1922)
-          Kay Rasmus Nielsen (Danish, 1886-1957)</a> 
-      </div>
-      </div>
-       <!-- fin item 1-->
-
-       <!-- item 2-->
-      <div class="design-item">
-        <div class="design-img">
-         <img src="obra-7.jpg" alt="">
-         <span> <i class="far fa-heart"></i>100</span>
-         <span> Arte & Diseño </span>
+       <!-- Item-->
+        <div class="design-item">
+          <div class="design-img">
+            <img src="img/obra_2.jpg" alt="obra 2">
+            <span> <i class="far fa-heart"></i>1000</span>
+            <span>Galeria|Arte</span>
+          </div>
+          <div class="design-title">
+            <a href="#">Budytes citreolus, Budytes campestris.Johann Friedrich Naumann (German, 1780 -1857)</a> 
+          </div> 
         </div>
-
-        <div class=" design-titulo">
-         <a href="#">Budytes citreolus, Budytes campestris
-          Johann Friedrich Naumann (German, 1780 -1857)</a> 
-        </div> 
-      </div>
-       <!-- fin item 2-->
-
-        <!--item 3-->
+       <!--Item -->
        <div class="design-item">
          <div class="design-img">
-           <img src="obra-8.jpg" alt="">
-           <span> <i class="far fa-heart"></i>50</span>
-           <span> Arte & Diseño </span>
-         </div>
-
-         <div class=" design-titulo">
+           <img src="img/obra_6.jpg" alt="obra 3">
+           <span> <i class="far fa-heart"></i>1005</span>
+           <span>Galeria|Arte</span>
+          </div>
+         <div class=" design-title">
            <a href="#">Žena z Dalmácie II. (1851-1853)
             Vojtech Klimkovič (Slovak, 1833-1885)</a> 
-         </div>
-        </div>
-          <!-- Fin de item 3-->
-
-           <!-- item 4-->
-         <div class="design-item">
-             <div class="design-img">
-              <img src="obra4.jpg" alt="">
-              <span> <i class="far fa-heart">80</i></span>
-              <span> Arte & Diseño </span>
-             </div>
-  
-           <div class=" design-titulo">
-             <a href="#">Asking The Stars
-              Karl Wilhelm Diefenbach (German, 1851 - 1913)</a> 
-           </div>
           </div>
-           <!-- fin de item 4-->
-
-           <!-- item 5-->
-          <div class="design-item">
-             <div class="design-img">
-               <img src="obra5.jpg" alt="">
-               <span> <i class="far fa-heart">34</i></span>
-                <span> Arte & Diseño </span>
-              </div>
-
-              <div class=" design-titulo">
-                <a href="#">Portrait of a Lady
-                Charles Chaplin (French, 1825 - 1891)</a> 
-              </div>
-            </div>
-           <!--fin de item 5-->
-            <!-- item 6-->
+        </div>
+          <!-- Item-->
           <div class="design-item">
             <div class="design-img">
-              <img src="obra-9.jpg" alt="">
-              <span> <i class="far fa-heart">34</i></span>
-               <span> Arte & Diseño </span>
-             </div>
-
-             <div class=" design-titulo">
-               <a href="#">At the Window (1881)
-                Hans Heyerdahl (Norwegian, 1857-1913)</a> 
-             </div>
-           </div>
-          <!--fin de item 6-->
-   </div>
-
-  </div> 
-</section>
-<!--fin de destacados-->
-
-<!--Nosotros-->
-<section class="about" id="nosotros">
+              <img src="img/obra_4.jpg" alt="obra 4">
+              <span> <i class="far fa-heart">1000</i></span>
+              <span>Galeria|Arte</span>
+            </div>
+            <div class="design-title">
+               <a href="#">Asking The Stars Karl Wilhelm Diefenbach (German, 1851 - 1913)</a> 
+            </div>
+          </div>
+           <!-- item-->
+          <div class="design-item">
+             <div class="design-img">
+                <img src="img/obra_5.jpg" alt="obra 5">
+                <span> <i class="far fa-heart">905</i></span>
+                <span>Galeria|Arte</span>
+              </div>
+              <div class=" design-title">
+                <a href="#">Portrait of a Lady.Charles Chaplin (French, 1825 - 1891)</a> 
+              </div>
+          </div>
+            <!-- Item-->
+          <div class="design-item">
+            <div class="design-img">
+              <img src="img/obra_3.jpg" alt="obra 6">
+              <span> <i class="far fa-heart">900</i></span>
+              <span>Galeria|Arte</span>
+            </div>
+            <div class="design-title">
+              <a href="#">At the Window (1881).Hans Heyerdahl (Norwegian, 1857-1913)</a> 
+            </div>
+          </div>
+      </div>
+    </div> 
+ </section>
+ <!--Regala Arte--->
+  <section class="about" id="arte">
   <div class="container">
       <div class="about-container">
             <div>
-              <img src="nosotros.jpg" alt="">
+              <img src="img/fondo_2.jpg" alt="Fondo">
             </div>
             <div class="about-text">
                 <div class="title">
-                  <h2>Sobre Nosotros</h2>
-                  <p>Este blog es donde comparto uno de mis pasatiempos</p>
+                  <h2>REGALÁ ARTE</h2>
+                  <p>Regalar arte es siempre una manifestacion de buen gusto, unicidad y una oportunidad de valorización.Por eso,creamos esta sección para que sorprendas con el regalo correcto.</p>
                     <div>
-                      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nam delectus autem voluptatem laborum dolorum ex, earum odit ducimus harum dolorem molestiae nobis molestias beatae expedita natus labore est velit!</p>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa, iusto qui sequi dolores quia necessitatibus, ipsam rem cupiditate reiciendis libero quibusdam, hic eligendi obcaecati vitae. Reprehenderit recusandae aut corporis!</p>
+                      <h3><span>¿Querés sorprender a alguien con un regalo original?</span></h3>
+                      <p>En Galeria|Arte,ténes la posibilidad de regalar el monto que quieras para que la persona pueda elegir la obra que más le guste!</p>
+                      <div class="about-btn">
+                       <a href="https://web.whatsapp.com/"> <input type="submit"value="Contactar"></a>
+                      </div>
                     </div>
                 </div>
             </div>
       </div>
   </div>
-</section>
-<!--Fin nosotros-->
+ </section>
 
-<!--pie de pagina-->
-<footer>
-  <div class="social-links">
-    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-    <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
-  </div>
-   <span>Galeria Arte.blog</span>
-   <h6>&copy;Todos los derechos reservados 2024</h6>
-</footer>
-<!--fin de pie de pagina-->
+ <!--Footer---->
+  <footer>
+    <div class="social-links">
+     <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+     <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+     <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+    </div>
+    <span>Galeria&Arte</span>
+    <div class="copy">
+      <p>Copyright &copy;2024 | Designed by <span class="designer">Longo Verónica.</span></p>
+    </div>
+    
+  </footer>
+<script src="script.js"></script>
 </body>
 </html>
