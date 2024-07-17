@@ -249,5 +249,40 @@ header.abajo .logo,header.abajo ul li a{
     width: 100%;
     height: 100%;
 }
+/* Responsive*/
+@media (max-width: 991px)
+{
+   body{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/fondo_3.jpg) center/cover no-repeat fixed;
+   }
+   .contactt{
+    padding: 20px;
+   }
+   .box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "form"
+      "info"
+      "maps";
+   }
+   .formbox .row50{
+    display: flex;
+    gap:0;
+    flex-direction:column;
+   }
+   .imputbox{
+     width: 100%;
+   }
+   .contact{
+    padding: 30px;
+   }
+   .maps{
+    min-height: 300px;
+    padding: 0;
+   }
+}
 
 
